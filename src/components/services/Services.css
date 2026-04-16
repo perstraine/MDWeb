@@ -1,0 +1,114 @@
+#services_holder{
+    padding-top: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+}
+
+.services_icon{
+    height: 60px;
+    width: 60px;
+}
+
+/* .testers{
+    height: 100px;
+    background-color: grey;
+    width: 100%;
+    margin: 10px;
+} */
+
+#services_title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #0a5d91;
+    /* background-color: var(--base-theme); */
+    width: 97%;
+}
+
+#services_on_offer{
+    margin-top: 80px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#services_list{
+    padding-top: 30px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.services_item{
+    /* width: 500px; */
+    text-align: left;
+    padding: 60px 0;
+    height: 150px;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+}
+
+.services_item:nth-child(2n){
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+
+.services_type{
+    width: 400px;
+    font-size: 25px;
+    font-weight: 400;
+    padding:20px 20px 30px ;
+    height: 100%;
+    text-align: center;
+    /* align-content: top; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: #0EA3FF;
+    background: linear-gradient(0deg, rgba(14, 163, 255, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    border-radius: 10px;
+}
+
+.services_type:nth-child(2n){
+    text-align: right;
+}
+
+.services_description{
+    font-size: 20px;
+    width: 90%;
+    padding: 15px;
+}
+
+@media screen and (max-width: 1110px) {
+    #services_holder{
+        align-self: center;
+        width: 95%;
+        padding-bottom: 30px;
+    }
+    .services_item, .services_item:nth-child(2n){
+        height: auto;
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    .services_type{
+        height: auto;
+        width: 90%;
+        
+    }
+    .services_description{
+        padding-top: 8px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #services_title{
+        width: 100%;
+    }
+}
