@@ -7,6 +7,7 @@
     align-items: center;
     padding: 70px 0;
     background-color: #0ea3ff2d;
+    min-height: 500px;
 }
 
 #contact_form_title{
@@ -24,6 +25,12 @@
     padding: 30px;
     display: flex;
     flex-direction: column;
+}
+
+#contact_form_submission_message{
+    font-size: 20px;
+    padding-top: 30px;
+    text-align: center;
 }
 
 label{
