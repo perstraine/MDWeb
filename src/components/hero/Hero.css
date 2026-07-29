@@ -49,13 +49,13 @@
         margin-left: 5%;
         margin-right: 5%;
         width: 100%;
-        font-size: 50px;
+        font-size: 40px;
     }
 }
 
 @media screen and (max-width: 767px){
     #hero_text{
-        font-size: 35px;
+        font-size: 30px;
     }
 
 }
