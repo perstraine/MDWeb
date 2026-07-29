@@ -119,7 +119,7 @@ export default function Services() {
               General Office Administration
             </div>
             <div className="services_description">
-              Handling general office administritative work, enhancing
+              Handling general office administrative work, enhancing
               productivity for streamlined business operations.
             </div>
           </motion.div>
