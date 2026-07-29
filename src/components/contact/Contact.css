@@ -21,6 +21,13 @@
     padding: 30px;
 }
 
+#contact_form_extra{
+    width: 80%;
+    text-align: center;
+    font-size: 25px;
+    padding: 30px;
+}
+
 #contact_form{
     padding: 30px;
     display: flex;
@@ -66,11 +73,11 @@ textarea{
     }
 
     #contact_form{
-        width: 100vw;
+        width: 95vw;
         padding: 0;
     }
 
     input{
-    width: 95vw;
+    width: 90vw;
 }
 }

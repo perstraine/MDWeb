@@ -54,8 +54,8 @@ export default function Contact() {
             Get in touch today and let me take the stress out of your
             bookkeeping so you can focus on your business.
           </div>
-          <div id="contact_form_desc">
-            You can email me at info@mdbookkeeping.co.nz, or fill out the
+          <div id="contact_form_extra">
+            You can email me at info@mdbookkeeping.co.nz or fill out the
             contact form below.
           </div>
           <form id="contact_form" onSubmit={onSubmit}>
